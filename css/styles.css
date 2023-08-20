@@ -1,0 +1,123 @@
+:root{
+    --navyblue:#2E2F42;
+    --aqua:#1aaaaa;
+    --darkblue:#2E2F42;
+    --light:#f5f3f3;
+    --cornflower:E7E9FC;
+    --cloud:#F4F4FD;
+    --ocean:#404BBF;
+    --iris:#4D5AE5;
+
+}
+body{
+
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        background: #FFF;
+
+}
+
+
+.site-nav,.web-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.header-submenu{
+    color: var(--navyblue );
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+
+}
+.link{
+    text-decoration: none; 
+}
+.link:hover{
+color: var(--aqua)
+}
+.web-color {
+    color: var(--iris);
+}
+.site-nav, {
+color:var(--navyblue);
+}
+.banner-one{
+    background-color: #2E2F42;
+        flex-shrink: 0;
+}
+.header-one{
+    color: var(--light);
+    text-align: center;
+    font-family: Roboto;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        /* 107.143% */
+        letter-spacing: 1.12px;
+}
+.title-what,.title-team{
+    text-align: center;
+}
+.btn-order {
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.64px;
+    display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        color: var(--light);
+        border-radius: 4px;
+            background: var(--iris, );
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.btn-order:hover{
+    color: var(--iris);
+    background-color: var(--cloud);
+}
+.ul,.our-team-list,.row,.row-1,.row-2,.row-3
+{
+    list-style-type: none;
+    
+}
+.footer-p,.studio-color{
+    color: var(--light);
+}
+.footer-bg{
+    width: 1440px;
+        height: 312px;
+        flex-shrink: 0;
+    background-color: var(--darkblue);
+}
+.btn-menu{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
+}
+.btn-menu:hover {
+ color: var(--cloud);
+ background-color: var(--ocean);
+}
+

@@ -7,26 +7,28 @@
     --cloud:#F4F4FD;
     --ocean:#404BBF;
     --iris:#4D5AE5;
+    --white:#fff;
 
 }
 body{
 
-    font-family: Roboto;
+        font-family:"Raleway","Roboto",sans-serif;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
+        line-height: 1.5;
         letter-spacing: 0.32px;
-        background: #FFF;
+        background:var(--white);
+        color: var(--navyblue);
 
 }
-
 
 .site-nav,.web-link{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
+}
+.link{
+    text-decoration: none;
+    color: var(--navyblue);
 }
 .header-submenu{
     color: var(--navyblue );
@@ -34,13 +36,8 @@ body{
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
-        /* 150% */
+        line-height: 1.5;
         letter-spacing: 0.32px;
-
-}
-.link{
-    text-decoration: none; 
 }
 .link:hover{
 color: var(--aqua)
@@ -48,7 +45,7 @@ color: var(--aqua)
 .web-color {
     color: var(--iris);
 }
-.site-nav, {
+.site-nav {
 color:var(--navyblue);
 }
 .banner-one{
@@ -62,7 +59,7 @@ color:var(--navyblue);
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1.5;
         /* 107.143% */
         letter-spacing: 1.12px;
 }
@@ -74,7 +71,7 @@ color:var(--navyblue);
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.64px;
     display: inline-flex;
@@ -89,11 +86,17 @@ color:var(--navyblue);
 .btn-order:hover{
     color: var(--iris);
     background-color: var(--cloud);
-}
-.ul,.our-team-list,.row,.row-1,.row-2,.row-3
-{
-    list-style-type: none;
+    cursor: pointer;
     
+}
+.btn-menu:active
+{
+    color: var(--iris);
+        background-color: var(--cloud);
+
+}
+.our-team-list,.ul{
+    list-style-type: none;   
 }
 .footer-p,.studio-color{
     color: var(--light);
@@ -109,7 +112,7 @@ color:var(--navyblue);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
     letter-spacing: 0.64px;
     border-radius: 4px;

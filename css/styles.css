@@ -129,4 +129,5 @@ body {
 .btn-menu:hover {
   color: var(--cloud);
   background-color: var(--ocean);
+  cursor: pointer;
 }
